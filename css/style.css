@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F7FBE1;
+  font-family: Helvetica;
+  color: #F3E9DD;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.profpic,
+.namern {
+  display: flex;
+  justify-content:space-around;
+}
+.profpic {
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.namern {
+  justify-content: center;
+  color:#436F8A;
+}
+h1 {
+  float:center;
+  color: #436F8A;
+}
+.circular{
+  border-radius: 100%; /*pic*/
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mainbox {
+  background-color: #F3E9DD;
+  display: flex;
+  border: 5px solid #436F8A;
+  margin: 10px;
+
+}
+
+
+
+/*knitting page*/
+#container {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.row {
+  width: 100%
+}
+
+.row > div {
+  background-color: #F3E9DD;
+}
+
+h2 {
+  color: #436F8A;
+}
+h3 {
+  background-color: #F3E9DD;
+  color: #436F8A;
+  text-align: left;
+  display: flex;
+  padding: 10px;
+
+
+}
+.table-contents {
+  padding: 10px;
+  justify-content: space-between;
+
+
+
+
+}
+ul {
+  background-color: #F3E9DD;
+  color: #436F8A;
+}
+section {
+  border: 2px solid black;
+  font-family: Helvetica;
+  position: relative;
+  margin: 10px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: double;
+  border-color: #F3E9DD;
+  border-width: .5em;
+  width: 50%;
+  opacity: .6;
+
+}
+p {
+  color: #436F8A;
+}
+table {
+
+  color: #436F8A;
+
+}
+/*footer*/
+footer {
+  background-color: #436F8A;
+  text-align: center;
+  color: #436F8A;
+  opacity: .5;
+  height: 100px;
+  padding:10px 0;
+  margin: 0;
+  position: static;
+  position: relative;
+
+  bottom: 10px;
+  width: 100%;
+
+}
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  background-color: #DAB88B;
+  color: #F3E9DD;
+  padding: 14px 25px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  background-color: #F3E9DD;
+  color: #B7CADB;
+  text-decoration: none;
+  border: 2px solid #436F8A;
+}
+
+
+/*end footer*/
+/*large device */
+@media (min-width: 992px) {
+  }
+
+/*medium device */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/*small device*/
+@media (max-width: 767px) {
+}
